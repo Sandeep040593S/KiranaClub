@@ -77,3 +77,15 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+
+# Dependencies
+- [react-native-splash-screen] - to show splash screen as soon the app loads.
+- [react-native-gesture-handler] - Gesture handle based on swipe right and swipe left
+- [axios] - for api calls
+
+
+# Building of debug apk on mac OS/ For Windows replace './gradlew' with 'gradlew.bat' inside script{} of package json and then do below steps
+- [step1] - yarn clear
+- [step2] - yarn prebuild
+- [step3] - yarn build
